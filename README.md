@@ -10,13 +10,14 @@ The GR Startups frontend, built on Bootstrap, shows off all of the models create
 In update 2.0 (set to release in Nov. 2017), a full-scale administrative backend was added to act as a CMS with roles and permissions. The idea behind this, was to create a self-sufficient paltform, where an account can be generated, and one of the local "resources" can fill in their information using a form, choose a template designed by Inveigle, and auto-generate a frontend page upon submission — all while having a restricted account becasue of roles and permissions
 
 ## Spotlights
-Spotlights are a model (Laravel as an MVC framework) where 
+Spotlights are a model (Laravel as an MVC framework) where each one holds information from an entrepreneur interview. With the help of a few other individuals, we'll be producing some video interviews, and each spotlight will have its own dedicated page, where the backend would create or POST those to be viewable on the frontend. 
 
 ## Resources
 
 ## News
 
 ## Roles & Permissions
+GR Startups is controlled by roles and permissions on the backend, to prevent any data being accessed or altered in an inappropriate way, while also giving way to a self-sufficient backend where people outside from GR Startups, or Inveigle, can actually add information and edit the information they're responsible for. The frontend portion is open for anyone to view. 
 
-### Scalability
+## Scalability
 Beyond Grand Rapids, this platform can be implemented across just about any community. It takes some community involvement to populate a database for this, but is overall low maintainence and provides an excellent resource for the business and professional community there.
