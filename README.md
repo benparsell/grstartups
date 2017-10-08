@@ -1,7 +1,7 @@
 # grstartups
-A basic code walkthrough of GR Startups
+A basic code walkthrough of GR Startups — for anyone looking to see code, please email Ben Parsell. All code is proprietary at this time, but can certainly be seen for anything professional or educational.
 
-https://grstartups.com is a platform, written in PHP and based on the Laravel Framework, that provides a hub for entrepreneurship in Gradn Rapids, MI. The platform, as of Oct. 2017, has scaffolding for "Spotlights", or entrepreneur interviews and stories to be added, as well as "Resources", or entrepreneurship resources (think co-working spaces, accelerators, legal, etc).
+https://grstartups.com is a platform, written in PHP and based on the Laravel Framework, that provides a hub for entrepreneurship in Grand Rapids, MI. The platform, as of Oct. 2017, has scaffolding for "Spotlights", or entrepreneur interviews and stories to be added, as well as "Resources", or entrepreneurship resources (think co-working spaces, accelerators, legal, etc).
 
 ## GR Startups Frontend
 The GR Startups frontend, built on Bootstrap, shows off all of the models created in the backend, including Spotlights, Resources, and general news pieces. Once something is created in the CMS backend, it is automatically created into the database, and viewed on the frontend.
@@ -17,3 +17,6 @@ Spotlights are a model (Laravel as an MVC framework) where
 ## News
 
 ## Roles & Permissions
+
+### Scalability
+Beyond Grand Rapids, this platform can be implemented across just about any community. It takes some community involvement to populate a database for this, but is overall low maintainence and provides an excellent resource for the business and professional community there.
