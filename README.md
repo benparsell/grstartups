@@ -1,4 +1,4 @@
-# grstartups
+# GR Startups
 A basic code walkthrough of GR Startups — for anyone looking to see code, please email Ben Parsell. All code is proprietary at this time, but can certainly be seen for anything professional or educational.
 
 https://grstartups.com is a platform, written in PHP and based on the Laravel Framework, that provides a hub for entrepreneurship in Grand Rapids, MI. The platform, as of Oct. 2017, has scaffolding for "Spotlights", or entrepreneur interviews and stories to be added, as well as "Resources", or entrepreneurship resources (think co-working spaces, accelerators, legal, etc).
@@ -13,8 +13,10 @@ In update 2.0 (set to release in Nov. 2017), a full-scale administrative backend
 Spotlights are a model (Laravel as an MVC framework) where each one holds information from an entrepreneur interview. With the help of a few other individuals, we'll be producing some video interviews, and each spotlight will have its own dedicated page, where the backend would create or POST those to be viewable on the frontend. 
 
 ## Resources
+Resources are organiztions or companies that have something to offer to the entrepreneurial ecosystem. Using roles and permissions, we will be able to create an account for a company that should be added, have them login, add their information to their restricted backend view, and be able to pick a pre-designed front end template for their resource to appear to the rest of the world. Their account will always remain active, and they can always change any information in the future.
 
 ## News
+One of the initial reasons this project was created was the lack of news pieces that exist in the West Michigan area. However, we will still maintain a news feed to share everything entrepreneurial from different outlets in West Michigan, while always linking back and crediting the inital authors.
 
 ## Roles & Permissions
 GR Startups is controlled by roles and permissions on the backend, to prevent any data being accessed or altered in an inappropriate way, while also giving way to a self-sufficient backend where people outside from GR Startups, or Inveigle, can actually add information and edit the information they're responsible for. The frontend portion is open for anyone to view. 
